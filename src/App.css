@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.field {
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.pale-green-border {
+  border: 3px solid #e6221b;
+  padding: 10px;
+}
+
+.header {
+  padding: 10px;
+}
