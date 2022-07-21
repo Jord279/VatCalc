@@ -4,8 +4,7 @@ import NumberEditorField from "./NumberEditorField";
 const PriceEntryField = (props) => {
     return (
         <div>
-            {props.label} 
-            <NumberEditorField value={props.price} valueChanged={props.priceChanged}/>
+            {props.label} <NumberEditorField value={props.price} valueChanged={props.priceChanged}/>
         </div>
     )
 }
