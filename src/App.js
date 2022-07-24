@@ -41,7 +41,7 @@ function App() {
       VAT Calculator
       <div className="pale-green-border field">
         <VATRateField customstyle="field" vatRateChanged={handleVatRateChanged} value={vatRate} updatePrices={updatePrices} />
-        <PriceEntryField customstyle="field" label="Price Excl. VAT " priceChanged={handleNetPriceChange} price={netPrice === 0.0 ? "" : netPrice} />
+        <PriceEntryField customstyle="field" label="Price Excl. VATT " priceChanged={handleNetPriceChange} price={netPrice === 0.0 ? "" : netPrice} />
         <DisplayBlock customstyle="field" label="VAT to pay: " value={vatToPay}/>
         <PriceEntryField customstyle="field" label="Price Incl. VAT " priceChanged={handleGrossPriceChange} price={grossPrice === 0.0 ? "" : grossPrice}/>
       </div>
